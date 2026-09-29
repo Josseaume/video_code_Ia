@@ -10,7 +10,14 @@ npm install
 npm run dev      # Remotion Studio : prévisualisation + timeline dans le navigateur
 npm run render   # → out/showreel.mp4
 npm run still    # → out/frame.png (une image, pratique pour vérifier vite)
+npm run rendus   # → rendus/<categorie>/<Nom>/<Nom>.mp4 + prompt.md, pour chaque composition
 ```
+
+## Prompts (`prompts/`)
+
+- `prompts/SQUELETTE-video.md` : modèle à trous pour demander une nouvelle vidéo.
+- `prompts/videos/`, `prompts/motion/`, `prompts/scenes-datacenter/` : un prompt par composition
+  (même nom que la composition), recopié à côté du MP4 par `npm run rendus`.
 
 ## Structure
 

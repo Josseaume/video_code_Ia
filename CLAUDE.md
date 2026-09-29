@@ -10,3 +10,4 @@ Projet Remotion (React + TypeScript) pour faire des vidéos en code.
 - Kit réutilisable dans `src/kit/` (exporté par `src/kit/index.ts`) ; chaque brique a une démo dans `src/kit/demos.tsx`.
 - Photos : uniquement des images libres (Wikimedia Commons) listées dans `CREDITS.md` ; toute nouvelle photo doit y être ajoutée avec auteur + licence.
 - Ne pas reproduire de logo ou nom de marque réel : le style s'inspire des vidéos Safer mais l'identité (`ProjectLogo`) est propre au projet.
+- Chaque composition a un prompt dans `prompts/` (nom = id sans préfixe `Kit-`/`DC-`). Nouvelle composition → écrire son prompt, puis `npm run rendus -- <Id>`.
