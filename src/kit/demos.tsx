@@ -6,7 +6,7 @@ import {BlockWipe, ColorWash, TriangleZoom, TypeOn} from './Effects';
 import {FlowLine} from './FlowLine';
 import {KeywordsOverPhoto, PhotoOpener} from './FullPhoto';
 import {Badge, ProjectLogo} from './Logo';
-import {MapOise} from './MapOise';
+import {MapOise, MapRegion} from './MapRegion';
 import {PhotoText} from './PhotoText';
 import {StatCard} from './StatCard';
 import {TextBlock} from './Text';
@@ -107,6 +107,35 @@ const Carte = () => (
   </White>
 );
 
+const CarteBretagne = () => (
+  <White>
+    <TextBlock
+      style={{left: 140, top: 330}}
+      lines={[
+        {text: 'Un emplacement', weight: 400, size: 44},
+        {text: 'stratégique', size: 78},
+        {text: 'en Bretagne', weight: 400, color: K.green, size: 44},
+      ]}
+    />
+    <MapRegion
+      region="bretagne"
+      x={880}
+      y={250}
+      scale={240}
+      cities={[
+        {name: 'Rennes', lon: -1.68, lat: 48.11, main: true},
+        {name: 'Brest', lon: -4.49, lat: 48.39, main: true},
+        {name: 'Quimper', lon: -4.1, lat: 48.0},
+        {name: 'Lorient', lon: -3.37, lat: 47.75},
+        {name: 'Vannes', lon: -2.76, lat: 47.66},
+        {name: 'Saint-Brieuc', lon: -2.76, lat: 48.51},
+      ]}
+      site={{lon: -3.0, lat: 48.2, label: 'Le site'}}
+      link={{lon: -1.68, lat: 48.11, label: ''}}
+    />
+  </White>
+);
+
 const Frise = () => (
   <White>
     <Timeline
@@ -153,6 +182,7 @@ export const KIT_DEMOS: {id: string; component: React.FC; duration: number}[] = 
   {id: 'MotsClesPhoto', component: MotsCles, duration: 150},
   {id: 'TexteImage', component: TexteImage, duration: 110},
   {id: 'Carte', component: Carte, duration: 150},
+  {id: 'CarteBretagne', component: CarteBretagne, duration: 200},
   {id: 'Frise', component: Frise, duration: 120},
   {id: 'Compteurs', component: Compteurs, duration: 90},
   {id: 'Transitions', component: Transitions, duration: 130},

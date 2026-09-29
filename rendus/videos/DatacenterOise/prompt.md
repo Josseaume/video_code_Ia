@@ -36,4 +36,4 @@ TECH
 
 DONE WHEN
 - Looks like a professional institutional film; no text overlaps; all photo authors credited.
-```
+- Les chiffres sont bon par exemple si des pourecentage sont donner que le total fasse 100%

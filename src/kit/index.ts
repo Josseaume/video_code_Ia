@@ -10,6 +10,6 @@ export * from './Collage';
 export * from './StatCard';
 export * from './FullPhoto';
 export * from './PhotoText';
-export * from './MapOise';
+export * from './MapRegion';
 export * from './Timeline';
 export * from './Counters';
