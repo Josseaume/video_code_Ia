@@ -30,6 +30,7 @@ Opening logo · territory photo + word list · question + mosaic + "nous avons u
 · words filled with photo · "ET SI ON EN PARLAIT ?" + triangle + end logo.
 
 TECH
+- Name every TransitionSeries.Sequence ("01 · Ouverture"…) so scenes are identifiable in the Studio timeline.
 - Build every visual element as a reusable component in src/kit/ with its own demo composition.
 - All texts & numbers in src/datacenter/content.ts. Deterministic timing (useCurrentFrame + spring/interpolate).
 - Render to out/datacenter-oise.mp4; check stills of every scene before the full render.

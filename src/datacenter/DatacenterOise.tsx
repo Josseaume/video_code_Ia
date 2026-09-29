@@ -43,7 +43,8 @@ export const DatacenterOise: React.FC = () => (
         );
       }
       items.push(
-        <TransitionSeries.Sequence key={scene.id} durationInFrames={scene.duration}>
+        // Le nom s'affiche dans la timeline du Studio : indispensable pour s'y retrouver au montage.
+        <TransitionSeries.Sequence key={scene.id} name={`${String(i + 1).padStart(2, '0')} · ${scene.id}`} durationInFrames={scene.duration}>
           <Scene />
         </TransitionSeries.Sequence>,
       );
