@@ -39,6 +39,8 @@ TECH
 MONTAGE (editability — do not skip)
 - Give every <Sequence> / <TransitionSeries.Sequence> an explicit, numbered `name`
   (e.g. name="01 · Intro", "02 · Prompt"…) so each scene shows up by name in the Studio timeline.
+- Write each scene's <Sequence> by hand, one JSX block per scene — NEVER generate them with .map()/.flatMap():
+  the Studio groups sequences created at the same line of code into a single timeline row ("01 · Intro +13").
 - One scene = one component. Scene order + durations in a single list in the config file.
 - Also register each scene as its own <Composition> inside a <Folder> ("Scenes"), same duration as in the film,
   so any scene can be rendered alone and swapped in a video editor.
@@ -59,5 +61,5 @@ DONE WHEN
 | ART DIRECTION | Qu'est-ce qui est **interdit** ? | « joli, moderne » | « fond noir pur, un seul orange #FF6A1A, pas d'autres couleurs » |
 | SHOT LIST | Que voit-on **à chaque seconde** ? | « une intro puis le contenu » | « 0–3 s : les lignes se tracent depuis le centre, un curseur orange clignote » |
 | TECH | Comment je modifie / vérifie ? | — | « couleurs et timings dans un seul fichier de config » |
-| MONTAGE | Est-ce que je retrouve et remplace **une** scène facilement ? | scènes sans nom : la timeline n'affiche que `<TS.Sequence>` | `name="03 · Carte"`, chaque scène rendable seule, textes dans un seul fichier |
+| MONTAGE | Est-ce que je retrouve et remplace **une** scène facilement ? | scènes générées par un `.map()` : la timeline les regroupe en une ligne « +13 » | une séquence écrite à la main par scène avec `name="03 · Carte"`, chaque scène rendable seule, textes dans un seul fichier |
 | DONE WHEN | Comment je sais que c'est fini ? | — | « rendu sans erreur, 20,0 s pile, textes lisibles » |
