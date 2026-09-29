@@ -1,0 +1,235 @@
+{
+  "video": {
+    "fps": 60,
+    "durationSec": 20,
+    "width": 1920,
+    "height": 1080
+  },
+  "generatedFrom": "src/config.ts",
+  "cues": [
+    {
+      "id": "contour_draw_0",
+      "type": "contour_draw",
+      "time": 0.1,
+      "label": "Contour lines draw from center",
+      "intensity": 0.3,
+      "frame": 6
+    },
+    {
+      "id": "cursor_appear_1",
+      "type": "cursor_appear",
+      "time": 1.9,
+      "label": "Orange cursor appears",
+      "intensity": 0.4,
+      "frame": 114
+    },
+    {
+      "id": "keystroke_2",
+      "type": "keystroke",
+      "time": 3.25,
+      "label": "Key \">\"",
+      "intensity": 0.45,
+      "frame": 195
+    },
+    {
+      "id": "keystroke_3",
+      "type": "keystroke",
+      "time": 3.4,
+      "label": "Key \" \"",
+      "intensity": 0.25,
+      "frame": 204
+    },
+    {
+      "id": "keystroke_4",
+      "type": "keystroke",
+      "time": 3.78,
+      "label": "Key \"C\"",
+      "intensity": 0.45,
+      "frame": 227
+    },
+    {
+      "id": "keystroke_5",
+      "type": "keystroke",
+      "time": 3.9,
+      "label": "Key \"h\"",
+      "intensity": 0.45,
+      "frame": 234
+    },
+    {
+      "id": "keystroke_6",
+      "type": "keystroke",
+      "time": 4.01,
+      "label": "Key \"a\"",
+      "intensity": 0.45,
+      "frame": 241
+    },
+    {
+      "id": "keystroke_7",
+      "type": "keystroke",
+      "time": 4.12,
+      "label": "Key \"t\"",
+      "intensity": 0.45,
+      "frame": 247
+    },
+    {
+      "id": "keystroke_8",
+      "type": "keystroke",
+      "time": 4.33,
+      "label": "Key \"G\"",
+      "intensity": 0.45,
+      "frame": 260
+    },
+    {
+      "id": "keystroke_9",
+      "type": "keystroke",
+      "time": 4.44,
+      "label": "Key \"P\"",
+      "intensity": 0.45,
+      "frame": 266
+    },
+    {
+      "id": "keystroke_10",
+      "type": "keystroke",
+      "time": 4.56,
+      "label": "Key \"T\"",
+      "intensity": 0.45,
+      "frame": 274
+    },
+    {
+      "id": "keystroke_11",
+      "type": "keystroke",
+      "time": 4.8,
+      "label": "Key \",\"",
+      "intensity": 0.45,
+      "frame": 288
+    },
+    {
+      "id": "leader_line_12",
+      "type": "leader_line",
+      "time": 7.15,
+      "label": "Leader line to HUD",
+      "intensity": 0.2,
+      "frame": 429
+    },
+    {
+      "id": "panel_in_13",
+      "type": "panel_in",
+      "time": 7.35,
+      "label": "HUD panel slides in",
+      "intensity": 0.5,
+      "frame": 441
+    },
+    {
+      "id": "bar_fill_14",
+      "type": "bar_fill",
+      "time": 8,
+      "label": "Bar \"T\" -> 0.99",
+      "intensity": 0.497,
+      "frame": 480
+    },
+    {
+      "id": "bar_fill_15",
+      "type": "bar_fill",
+      "time": 8.24,
+      "label": "Bar \"Claude\" -> 0.61",
+      "intensity": 0.383,
+      "frame": 494
+    },
+    {
+      "id": "bar_fill_16",
+      "type": "bar_fill",
+      "time": 8.48,
+      "label": "Bar \"the\" -> 0.12",
+      "intensity": 0.23600000000000002,
+      "frame": 509
+    },
+    {
+      "id": "bar_fill_17",
+      "type": "bar_fill",
+      "time": 8.72,
+      "label": "Bar \"a\" -> 0.003",
+      "intensity": 0.20090000000000002,
+      "frame": 523
+    },
+    {
+      "id": "winner_pulse_18",
+      "type": "winner_pulse",
+      "time": 10.2,
+      "label": "Winning token pulses (loopable)",
+      "intensity": 0.4,
+      "frame": 612
+    },
+    {
+      "id": "camera_push_19",
+      "type": "camera_push",
+      "time": 12,
+      "label": "Camera push-in",
+      "intensity": 0.4,
+      "frame": 720
+    },
+    {
+      "id": "token_lift_20",
+      "type": "token_lift",
+      "time": 12.35,
+      "label": "Winning token lifts off panel",
+      "intensity": 0.5,
+      "frame": 741
+    },
+    {
+      "id": "token_whoosh_21",
+      "type": "token_whoosh",
+      "time": 12.75,
+      "label": "Token flight",
+      "intensity": 0.7,
+      "frame": 765
+    },
+    {
+      "id": "impact_shockwave_22",
+      "type": "impact_shockwave",
+      "time": 13.65,
+      "label": "Token lands – shockwave",
+      "intensity": 1,
+      "frame": 819
+    },
+    {
+      "id": "grid_stream_23",
+      "type": "grid_stream",
+      "time": 14.3,
+      "label": "Token grid streams",
+      "intensity": 0.5,
+      "frame": 858
+    },
+    {
+      "id": "collapse_24",
+      "type": "collapse",
+      "time": 16,
+      "label": "Everything collapses to a point",
+      "intensity": 0.8,
+      "frame": 960
+    },
+    {
+      "id": "point_25",
+      "type": "point",
+      "time": 17,
+      "label": "Single orange point",
+      "intensity": 0.6,
+      "frame": 1020
+    },
+    {
+      "id": "end_card_26",
+      "type": "end_card",
+      "time": 17.55,
+      "label": "End card reveal",
+      "intensity": 0.5,
+      "frame": 1053
+    },
+    {
+      "id": "fade_out_27",
+      "type": "fade_out",
+      "time": 19.2,
+      "label": "Fade to black",
+      "intensity": 0.3,
+      "frame": 1152
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "next-token-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion motion-graphics film: how an LLM predicts the next token",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render NextToken out/video.mp4",
+    "sfx": "node --experimental-strip-types --no-warnings scripts/export-sfx.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.529",
+    "@remotion/google-fonts": "^4.0.529",
+    "@remotion/noise": "^4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

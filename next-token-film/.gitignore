@@ -1,0 +1,4 @@
+node_modules/
+out/*
+!out/sfx-cues.json
+.DS_Store
