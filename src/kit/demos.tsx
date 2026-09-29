@@ -109,14 +109,6 @@ const Carte = () => (
 
 const CarteBretagne = () => (
   <White>
-    <TextBlock
-      style={{left: 140, top: 330}}
-      lines={[
-        {text: 'Un emplacement', weight: 400, size: 44},
-        {text: 'stratégique', size: 78},
-        {text: 'en Bretagne', weight: 400, color: K.green, size: 44},
-      ]}
-    />
     <MapRegion
       region="bretagne"
       x={880}

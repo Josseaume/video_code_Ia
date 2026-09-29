@@ -10,7 +10,7 @@ STYLE
   mouvements en spring ou easing expo/cubic, jamais linéaires.
 
 ANIMATION
-- À gauche : « UN EMPLACEMENT / STRATÉGIQUE / EN BRETAGNE » (titre deux tons, lignes qui montent).
+- La carte seule, sans texte autour, placée à droite comme la carte de l'Oise dans la scène DC-Carte.
 - À droite : contour simplifié de la Bretagne (4 départements, lon/lat) qui se trace puis se remplit en vert anis léger.
 - Villes : Rennes et Brest (principales, bordeaux), Quimper, Lorient, Vannes, Saint-Brieuc (bleu canard).
 - Épingle orange « LE SITE » au centre de la Bretagne avec ondes ; ligne pointillée bordeaux vers Rennes.
