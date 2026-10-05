@@ -1,0 +1,73 @@
+{
+  "_doc": "Single source of truth shared by the three engines (Revideo, Manim, Three.js). Times are absolute seconds.",
+  "video": {"width": 1920, "height": 1080, "fps": 60, "duration": 20},
+  "colors": {"bg": "#000000", "accent": "#FF6A1A", "highlight": "#FFB070", "line": "#FFFFFF"},
+  "font": "JetBrains Mono",
+  "copy": {
+    "request": "GET /v1/generate · 1.2 KB",
+    "network": "spine · leaf · 400 Gb/s",
+    "endCard": "inside the data center",
+    "stats": [
+      {"label": "gpu util", "value": 98, "unit": "%", "decimals": 0},
+      {"label": "power", "value": 41.2, "unit": " kW", "decimals": 1},
+      {"label": "tokens/s", "value": 12480, "unit": "", "decimals": 0}
+    ],
+    "temps": [
+      {"label": "inlet", "value": 22, "unit": "°C"},
+      {"label": "outlet", "value": 38, "unit": "°C"}
+    ]
+  },
+  "layout": {
+    "spines": 4,
+    "leaves": 8,
+    "racks": 6,
+    "slotsPerRack": 12,
+    "targetSpine": 1,
+    "targetLeaf": 5,
+    "targetRack": 3
+  },
+  "t": {
+    "fiberDraw": 0.15,
+    "requestLabel": 0.8,
+    "packetIn": 0.6,
+    "packetArrive": 2.5,
+    "pullBack": 3.0,
+    "linksDraw": 3.3,
+    "hopSpine": 4.6,
+    "hopLeaf": 5.5,
+    "networkLabel": 5.0,
+    "racksIn": 7.0,
+    "packetToRack": 7.9,
+    "computeWave": 8.3,
+    "stats": 8.6,
+    "cooling": 12.0,
+    "temps": 12.6,
+    "response": 15.8,
+    "collapse": 16.7,
+    "point": 17.7,
+    "endReveal": 18.1,
+    "endRevealDur": 0.9,
+    "fadeOut": 19.25
+  },
+  "cues": [
+    {"type": "fiber_draw", "time": 0.15, "label": "Fiber line draws"},
+    {"type": "packet_whoosh", "time": 0.6, "label": "Request packet travels in"},
+    {"type": "type_label", "time": 0.8, "label": "Request label types"},
+    {"type": "packet_arrive", "time": 2.5, "label": "Packet reaches the edge router"},
+    {"type": "camera_pullback", "time": 3.0, "label": "Pull back to the network"},
+    {"type": "links_draw", "time": 3.3, "label": "Spine-leaf links draw"},
+    {"type": "hop", "time": 4.6, "label": "Hop: edge → spine"},
+    {"type": "hop", "time": 5.5, "label": "Hop: spine → leaf"},
+    {"type": "racks_in", "time": 7.0, "label": "Rack row rises"},
+    {"type": "packet_drop", "time": 7.9, "label": "Packet enters the rack"},
+    {"type": "compute_wave", "time": 8.3, "label": "Servers light up (GPU wave)"},
+    {"type": "hud_in", "time": 8.6, "label": "Stats count up"},
+    {"type": "airflow", "time": 12.0, "label": "Cooling airflow starts (loop)"},
+    {"type": "hud_in", "time": 12.6, "label": "Temperatures count up"},
+    {"type": "response_whoosh", "time": 15.8, "label": "Response streams out"},
+    {"type": "collapse", "time": 16.7, "label": "Everything collapses to a point"},
+    {"type": "point", "time": 17.7, "label": "Single orange point"},
+    {"type": "end_card", "time": 18.1, "label": "End card reveal"},
+    {"type": "fade_out", "time": 19.25, "label": "Fade to black"}
+  ]
+}

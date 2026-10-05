@@ -1,0 +1,143 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "duration": 20
+  },
+  "cues": [
+    {
+      "id": "fiber_draw_0",
+      "type": "fiber_draw",
+      "time": 0.15,
+      "label": "Fiber line draws",
+      "frame": 9
+    },
+    {
+      "id": "packet_whoosh_1",
+      "type": "packet_whoosh",
+      "time": 0.6,
+      "label": "Request packet travels in",
+      "frame": 36
+    },
+    {
+      "id": "type_label_2",
+      "type": "type_label",
+      "time": 0.8,
+      "label": "Request label types",
+      "frame": 48
+    },
+    {
+      "id": "packet_arrive_3",
+      "type": "packet_arrive",
+      "time": 2.5,
+      "label": "Packet reaches the edge router",
+      "frame": 150
+    },
+    {
+      "id": "camera_pullback_4",
+      "type": "camera_pullback",
+      "time": 3,
+      "label": "Pull back to the network",
+      "frame": 180
+    },
+    {
+      "id": "links_draw_5",
+      "type": "links_draw",
+      "time": 3.3,
+      "label": "Spine-leaf links draw",
+      "frame": 198
+    },
+    {
+      "id": "hop_6",
+      "type": "hop",
+      "time": 4.6,
+      "label": "Hop: edge → spine",
+      "frame": 276
+    },
+    {
+      "id": "hop_7",
+      "type": "hop",
+      "time": 5.5,
+      "label": "Hop: spine → leaf",
+      "frame": 330
+    },
+    {
+      "id": "racks_in_8",
+      "type": "racks_in",
+      "time": 7,
+      "label": "Rack row rises",
+      "frame": 420
+    },
+    {
+      "id": "packet_drop_9",
+      "type": "packet_drop",
+      "time": 7.9,
+      "label": "Packet enters the rack",
+      "frame": 474
+    },
+    {
+      "id": "compute_wave_10",
+      "type": "compute_wave",
+      "time": 8.3,
+      "label": "Servers light up (GPU wave)",
+      "frame": 498
+    },
+    {
+      "id": "hud_in_11",
+      "type": "hud_in",
+      "time": 8.6,
+      "label": "Stats count up",
+      "frame": 516
+    },
+    {
+      "id": "airflow_12",
+      "type": "airflow",
+      "time": 12,
+      "label": "Cooling airflow starts (loop)",
+      "frame": 720
+    },
+    {
+      "id": "hud_in_13",
+      "type": "hud_in",
+      "time": 12.6,
+      "label": "Temperatures count up",
+      "frame": 756
+    },
+    {
+      "id": "response_whoosh_14",
+      "type": "response_whoosh",
+      "time": 15.8,
+      "label": "Response streams out",
+      "frame": 948
+    },
+    {
+      "id": "collapse_15",
+      "type": "collapse",
+      "time": 16.7,
+      "label": "Everything collapses to a point",
+      "frame": 1002
+    },
+    {
+      "id": "point_16",
+      "type": "point",
+      "time": 17.7,
+      "label": "Single orange point",
+      "frame": 1062
+    },
+    {
+      "id": "end_card_17",
+      "type": "end_card",
+      "time": 18.1,
+      "label": "End card reveal",
+      "frame": 1086
+    },
+    {
+      "id": "fade_out_18",
+      "type": "fade_out",
+      "time": 19.25,
+      "label": "Fade to black",
+      "frame": 1155
+    }
+  ]
+}

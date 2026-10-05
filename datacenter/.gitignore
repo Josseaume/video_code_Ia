@@ -1,0 +1,5 @@
+node_modules/
+out/
+revideo/output/
+__pycache__/
+media/

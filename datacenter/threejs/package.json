@@ -1,0 +1,14 @@
+{
+  "name": "datacenter-threejs",
+  "private": true,
+  "type": "module",
+  "description": "Data center film — Three.js (MIT) + Playwright (Apache-2.0) + FFmpeg version",
+  "scripts": {
+    "render": "node render.mjs && ../shared/finish.sh ../out/raw-threejs.mp4 ../out/datacenter-threejs.mp4",
+    "preview": "node render.mjs --serve"
+  },
+  "dependencies": {
+    "playwright-core": "^1.63.0",
+    "three": "^0.186.1"
+  }
+}

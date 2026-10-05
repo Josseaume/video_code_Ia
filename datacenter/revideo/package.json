@@ -1,0 +1,20 @@
+{
+  "name": "datacenter-revideo",
+  "private": true,
+  "type": "module",
+  "description": "Data center film \u2014 Revideo (MIT) version",
+  "scripts": {
+    "render": "DISABLE_TELEMETRY=true node render.mjs && ../shared/finish.sh ../out/raw-revideo.mp4 ../out/datacenter-revideo.mp4"
+  },
+  "dependencies": {
+    "@revideo/2d": "^0.11.0",
+    "@revideo/core": "^0.11.0",
+    "@revideo/ffmpeg": "^0.11.0",
+    "@revideo/renderer": "^0.11.0",
+    "@revideo/ui": "^0.11.0",
+    "@revideo/vite-plugin": "^0.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
